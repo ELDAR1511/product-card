@@ -1,1 +1,1 @@
-
+verstka kart
