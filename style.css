@@ -15,8 +15,8 @@ body {
 
 .product-list {
     list-style: none;
-    padding: 0;
-    margin: 0;
+    padding: 20px;
+    margin: 20px auto;
 }
 
 .main-text {
