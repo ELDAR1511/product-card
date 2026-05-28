@@ -22,4 +22,11 @@ body {
 .main-text {
     color: #515076;
 }
+.card {
+    display: inline-block;
+    width: 300px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f5f5f5;
+}
 
