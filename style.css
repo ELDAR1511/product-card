@@ -37,6 +37,7 @@ body {
 }
 .price {
     margin-top: 20px;
+    margin-right: 100px;
     font-size: 16px;
     color: #532b69;
 }
