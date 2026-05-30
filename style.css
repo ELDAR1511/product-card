@@ -25,7 +25,9 @@ body {
 }
 .card {
     display: inline-block;
-    width: 300px;
+    box-sizing: border-box;
+    width: 340px;
+    height: 573px;
     padding: 20px;
     margin: 20px;
     background-color: #f5f5f5;
