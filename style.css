@@ -47,6 +47,7 @@ body {
     line-height: 24px;
     font-size: 12px;
     color: #A5A3B9;
+    text-transform: uppercase;
 }
 .product-name {
     font-size: 20px;
