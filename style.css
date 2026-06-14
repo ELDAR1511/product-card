@@ -88,8 +88,10 @@ body {
     margin: 0 auto;
     font-size: 14px;
     cursor: pointer;
-   background-image: url("images/icon.png");
+    background-image: url("images/icon.png");
     background-repeat: no-repeat;
     background-size: 16px 16px;
-    background-position: left 8px;
+    background-position: 8%;
+    width: 102px;
+    height: 32px;
 }
