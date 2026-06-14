@@ -76,3 +76,17 @@ body {
     justify-content: space-between;
     font-size: 20px;
 }
+.buy-button {
+    color: #515076;
+    line-height: 20px;
+    border: none;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 12px;
+    padding-right: 12px;
+    display: block;
+    margin: 0 auto;
+    font-size: 14px;
+    cursor: pointer;
+    : url("images/icon.png");
+}
