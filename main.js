@@ -1,0 +1,1 @@
+const productCard = document.querySelector('.card');
