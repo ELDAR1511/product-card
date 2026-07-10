@@ -45,5 +45,8 @@ h1[0].addEventListener('mouseover', () => {console.log('Выбери свой п
 
 //Кнопка меняющая свой цвет при нажатии
 
-const changeColorButton = document.querySelector('#change-color-button');
+const changeColorButton = document.querySelector('#change-color-button :active');
 
+changeColorButton.addEventListener('click', () => {
+  changeColorButton.classList.toggle('active');
+});
