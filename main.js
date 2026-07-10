@@ -37,3 +37,13 @@ function outputConsoleLog(message) {
   console.log(message);
 }
 
+//Вывод заголовка в консоль
+
+const h1=document.getElementsByTagName('h1');
+
+h1[0].addEventListener('mouseover', () => {console.log('Выбери свой продукт!')});
+
+//Кнопка меняющая свой цвет при нажатии
+
+const changeColorButton = document.querySelector('#change-color-button');
+

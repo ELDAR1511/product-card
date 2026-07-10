@@ -79,3 +79,6 @@ body {
     font-size: 20px;
 }
 
+#change-color-button {
+    background-color: red;
+}
