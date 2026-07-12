@@ -83,6 +83,6 @@ body {
     background-color: red;
 }
 
-#change-color-button:active {
+#change-color-button.active {
     background-color: blue;
 }
