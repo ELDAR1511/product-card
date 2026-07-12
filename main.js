@@ -5,14 +5,16 @@ const changeColorAllCardsButton = document.querySelector('#change-color-all-card
 const greenColorHash = '#00FF00';
 const blueColorHash = '#0000FF';
 
-changeColorAllCardsButton.addEventListener('click', () => {productCards.forEach(card => {card.style.backgroundColor = greenColorHash;});});
+changeColorAllCardsButton.addEventListener('click', () => 
+{productCards.forEach(card => {card.style.backgroundColor = greenColorHash;});});
 
 // Изменение цвета первой карточки
 
 const firstProductCard = document.querySelector('.card');
 const changeColorFirstCardButton = document.querySelector('#change-color-first-card');
 
-changeColorFirstCardButton.addEventListener('click', () => {firstProductCard.style.backgroundColor = blueColorHash;});
+changeColorFirstCardButton.addEventListener('click', () => 
+{firstProductCard.style.backgroundColor = blueColorHash;});
 
 // Открытие страницы Google.com
 
