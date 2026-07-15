@@ -41,8 +41,9 @@ function openGoogle() {
 
 const outputLogButton = document.querySelector('#output-console-log');
 
-outputLogButton.addEventListener('click', () =>
-  outputConsoleLog('Привет, мир!'));
+outputLogButton.addEventListener('click', () => {
+  outputConsoleLog('Привет, мир!')
+});
 
 function outputConsoleLog(message) {
   alert(message);
@@ -54,8 +55,8 @@ function outputConsoleLog(message) {
 const productTitle = document.getElementsByTagName('h1');
 
 productTitle[0].addEventListener('mouseover', () => {
-   console.log('Выбери свой продукт!') 
-  });
+  console.log(productTitle[0].textContent);
+});
 
 //Кнопка меняющая свой цвет при нажатии
 
