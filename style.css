@@ -79,3 +79,10 @@ body {
     font-size: 20px;
 }
 
+#change-color-button {
+    background-color: red;
+}
+
+#change-color-button.active {
+    background-color: blue;
+}
