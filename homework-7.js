@@ -5,3 +5,8 @@ function weather(city, temperature) {
 }
 
 weather('Черкесск', 20);
+
+//Скорость света
+
+const speedOfLight = 299792458; // м/с
+
