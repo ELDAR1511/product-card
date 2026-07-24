@@ -13,10 +13,9 @@ const SPEED_OF_LIGHT = 299792458; // м/с
 function checkSpeedOfLight(speed) {
   if (speed > SPEED_OF_LIGHT) {
     console.log('Сверхсветовая скорость');
-  }
-  else if (speed === SPEED_OF_LIGHT) {
+  } else if (speed === SPEED_OF_LIGHT) {
     console.log('Скорость света');
-} else {
+  } else {
     console.log('Субсветовая скорость');
   }
 }
