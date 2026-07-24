@@ -1,23 +1,29 @@
 // Задание 3
 
 function weather(city, temperature) {
-  console.log (`Сейчас в ${city} 
-    температура- ${temperature} градусов по Цельсию.`);
+  console.log(`Сейчас в ${city} температура - ${temperature} градусов по Цельсию.`);
 }
 
 weather('Черкесск', 20);
 
 //Задание 4
 
-let speedOfLight = 299792458; // м/с
+const SPEED_OF_LIGHT = 299792458; // м/с
 
-if (speedOfLight > 299792458) {
-  console.log('Сверхсветовая скорость');
-} else if (speedOfLight === 299792458) {
-  console.log('Скорость света');
-} else {console.log('Субсветовая скорость');
-
+function checkSpeedOfLight(speed) {
+  if (speed > SPEED_OF_LIGHT) {
+    console.log('Сверхсветовая скорость');
+  }
+  else if (speed === SPEED_OF_LIGHT) {
+    console.log('Скорость света');
+} else {
+    console.log('Субсветовая скорость');
+  }
 }
+
+checkSpeedOfLight(300000000);
+checkSpeedOfLight(299792458);
+checkSpeedOfLight(200000000);
 
 //Задание 5
 
@@ -28,7 +34,7 @@ function buyProduct(budget) {
   if (budget >= price) {
     console.log(`${product} приобретен. Спасибо за покупку!`);
   } else {
-    let difference = price - budget;
+    const difference = price - budget;
     console.log(`Вам не хватает ${difference}$, пополните баланс.`);
   }
 }
