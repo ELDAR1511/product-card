@@ -14,3 +14,15 @@ const allCars = cars.includes('bmw');
 
 console.log(allCars);
 
+// Задание- 4
+
+function reverseArray(array) {
+  return array.reverse();
+}
+
+console.log(reverseArray(numbers));
+console.log(reverseArray(cars));
+
+// Задание- 7
+
+import { comments } from "./comments";
